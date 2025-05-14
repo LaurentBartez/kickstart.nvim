@@ -15,5 +15,8 @@ return {
   -- order to load the plugin when the command is run for the first time
   keys = {
     { '<leader>gg', '<cmd>LazyGit<cr>', desc = 'Open lazy git' },
+    { '<leader>gl', '<cmd>LazyGitLog<cr>', desc = 'Open git log' },
+    { '<leader>gf', '<cmd>LazyGitFilterCurrentFile<cr>', desc = 'Open git filter for current file' },
+    { '<leader>gF', '<cmd>LazyGitFilter<cr>', desc = 'Open git filter for repository' },
   },
 }
